@@ -1,0 +1,58 @@
+{
+	"Continue": "Continue",
+    "Disabled": "Disabled",
+	"Enabled": "Enabled",
+	"Save": "Save settings",
+	"Saved": "Config saved successfully.",
+	"Options": "Options",
+	"Mod": "Mods",
+	"About": "About",
+	"Reset": "Reset settings",
+	"ResetSaved": "Settings reseted successfully.",
+	"error": {
+		"WrongCFW": "Detected incompatible CFW! Use Atmosphere or SX OS!",
+		"WrongMagic": "Error while trying to read existing config. Wrong MAGIC.",
+		"WrongOffset": "Offset error, loop",
+		"WrongSize": "Offset error, loop",
+		"WrongUnk": "Unknown error",
+		"Save": "Error while trying to save config",
+		"NoGame": "Trails of Cold Steel 3 is not installed. Supports only Western release",
+		"WrongVersion": "Version of Trails of Cold Steel 3 installed on your device is not compatible with this tool."
+	},
+
+	"settings": {
+		"AnisotropicFiltering": "Force Anisotropic Filtering",
+		"30FPS": "30 FPS lock",
+		"ShadowResDocked": "Shadow Resolution in docked mode",
+		"ShadowResHandheld": "Shadow Resolution in handheld mode",
+		"ShadowDistDocked": "Minimal Dynamic Shadow Distance in docked mode",
+		"ShadowDistHandheld": "Minimal Dynamic Shadow Distance in handheld mode",
+		"RendRes": "Rendering Resolution",
+		"WindRes": "Window Resolution",
+		"description": {
+			"AnisotropicFiltering": "Method of enhancing the image quality of textures on surfaces that are at oblique viewing angles. Forced using NVN. It may introduce rendering glitches.",
+			"30FPS": "Disabling this option enables experimental 60 FPS. It is adviced to use overclocking for better performance.",
+			"ShadowResDocked": "Describes how detailed are models shadows in docked mode. Recommended value is 2048.",
+			"ShadowResHandheld": "Describes how detailed are models shadows in handheld mode. Recommended value is 1536.",
+			"ShadowDistDocked": "Sets lowest available coefficient for dynamic distance of shadows in docked mode.",
+			"ShadowDistHandheld": "Sets lowest available coefficient for dynamic distance of shadows in handheld mode.",
+			"RendRes": "Sets docked and handheld resolution of layer where 3D objects are rendered. 2D layer resolution is intact.",
+			"WindRes": "Sets docked and handheld window resolution. 3D layer resolution is intact."
+		}
+	},
+	
+	"mods": {
+		"Warning": "This mod is already installed. Do you want to uninstall it?",
+		"Vegetation": "Restore vegetation",
+		"description": {
+			"Vegetation": "Brings back original density of vegegetation by restoring cutted plt files."
+		},
+		"notify": {
+			"VegetationRemoveStart": "Vegetation Restore mod is uninstalling in background. Don't exit Configurator.",
+			"VegetationRemoveEnd": "Vegetation Restore mod has been uninstalled.",
+			"VegetationStart": "Vegetation Restore mod is installing in background. Don't exit Configurator.",
+			"VegetationEnd": "Vegetation Restore mod has been installed."
+		}
+	}
+}
+
