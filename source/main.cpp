@@ -945,10 +945,8 @@ int main(int argc, char *argv[])
     
     i18n::loadTranslations();
     
-    smInitialize();
-    isAtmosphere = isServiceRunning("dmnt:cht");
-    isSXOS = isServiceRunning("tx");
-    smExit();
+    isAtmosphere = true;
+    isSXOS = false;
     
     
     if ((isAtmosphere ^ isSXOS) == 0) {
